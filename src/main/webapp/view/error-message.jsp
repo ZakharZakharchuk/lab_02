@@ -11,6 +11,6 @@
     <title>Error</title>
 </head>
 <body>
-<h1><a href="../index.jsp"/>Try again.</a> You entered wrong data</h1>
+<h1><a href="../calculator.jsp"/>Try again.</a> You entered wrong data</h1>
 </body>
 </html>

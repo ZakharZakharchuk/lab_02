@@ -11,6 +11,6 @@
     <title>Nan</title>
 </head>
 <body>
-<h1><a href="../index.jsp">Try again. </a>The result is NAN</h1>
+<h1><a href="../calculator.jsp">Try again. </a>The result is NAN</h1>
 </body>
 </html>

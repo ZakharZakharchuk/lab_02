@@ -8,17 +8,12 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-    <title>Title</title>
-    <style>
-        input:placeholder-shown {
-            border: 2px red;
-        }
-    </style>
+    <title>Calculator</title>
 </head>
 <body>
-<form action="calculate" method="get">
+<form action="calculate" method="post">
     Параметр a:<br>
-    <input type="number" name="a" placeholder=" " value="${sessionScope.get("a")}" required><br>
+    <input type="text" name="a" placeholder=" " value="${sessionScope.get("a")}" required><br>
     Параметр b:<br>
     <input type="text" name="b" placeholder=" " value="${sessionScope.get("b")}" required><br>
     Параметр c:<br>
